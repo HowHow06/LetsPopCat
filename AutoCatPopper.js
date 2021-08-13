@@ -5,3 +5,5 @@ const pop = () => {
 };
 
 const autoPop = setInterval(pop, 100);
+
+clearInterval(autoPop); //only use this code when you wanna stop the popping
